@@ -1,3 +1,11 @@
 from django.http import HttpResponse
-def http_test(request) :
-    return HttpResponse('http_test')
+
+def index_view(request) :
+    return HttpResponse('home page')
+
+def about_view(request) :
+    return HttpResponse('about page')
+
+
+def contact_view(request) :
+    return HttpResponse('contact page')
