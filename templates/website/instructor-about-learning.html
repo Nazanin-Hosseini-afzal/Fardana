@@ -1,0 +1,1297 @@
+<!doctype html>
+
+<html class="no-js" lang="fa">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="ie=edge" http-equiv="x-ua-compatible" />
+    <title>Acadia - دوره دانشگاه و دوره آنلاین HTML5 الگوی</title>
+    <meta content="" name="description" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <!-- Place favicon.ico in the root directory -->
+    <link
+      href="assets/img/logo/favicon.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <!-- CSS here -->
+    <link href="assets/css/bootstrap.rtl.css" rel="stylesheet" />
+    <link href="assets/css/animate.css" rel="stylesheet" />
+    <link href="assets/css/swiper-bundle.rtl.css" rel="stylesheet" />
+    <link href="assets/css/slick.css" rel="stylesheet" />
+    <link href="assets/css/magnific-popup.css" rel="stylesheet" />
+    <link href="assets/css/flatpickr.min.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome-pro.css" rel="stylesheet" />
+    <link href="assets/css/spacing.rtl.css" rel="stylesheet" />
+    <link href="assets/css/main.rtl.css" rel="stylesheet" />
+    <link href="assets/css/datepicker.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- pre loader area start -->
+    <div id="loading">
+      <div id="loading-center">
+        <div id="loading-center-absolute">
+          <!-- loading content here -->
+          <div class="tp-preloader-content">
+            <div class="tp-preloader-logo">
+              <div class="tp-preloader-circle">
+                <svg
+                  fill="none"
+                  height="190"
+                  viewbox="0 0 380 380"
+                  width="190"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <circle
+                    cx="190"
+                    cy="190"
+                    r="180"
+                    stroke="#D9D9D9"
+                    stroke-linecap="round"
+                    stroke-width="6"
+                  ></circle>
+                  <circle
+                    cx="190"
+                    cy="190"
+                    r="180"
+                    stroke="red"
+                    stroke-linecap="round"
+                    stroke-width="6"
+                  ></circle>
+                </svg>
+              </div>
+              <img alt="" src="assets/img/logo/preloader/preloader-icon.png" />
+            </div>
+            <p class="tp-preloader-subtitle">بارگیری ...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- pre loader area end -->
+    <!-- back to top start -->
+    <div class="back-to-top-wrapper">
+      <button class="back-to-top-btn" id="back_to_top" type="button">
+        <svg
+          fill="none"
+          height="7"
+          viewbox="0 0 12 7"
+          width="12"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11 6L6 1L1 6"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.5"
+          ></path>
+        </svg>
+      </button>
+    </div>
+    <!-- back to top end -->
+    <!-- offcanvas area start -->
+    <div class="offcanvas__area offcanvas__2">
+      <div class="offcanvas__wrapper">
+        <div class="offcanvas__close">
+          <button class="offcanvas__close-btn offcanvas-close-btn">
+            <svg
+              fill="none"
+              height="12"
+              viewbox="0 0 12 12"
+              width="12"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 1L1 11"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              ></path>
+              <path
+                d="M1 1L11 11"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="1.5"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <div class="offcanvas__content">
+          <div
+            class="offcanvas__top mb-70 d-flex justify-content-between align-items-center"
+          >
+            <div class="offcanvas__logo logo">
+              <a href="index.html">
+                <img alt="logo" src="assets/img/logo/logo-black-2.png" />
+              </a>
+            </div>
+          </div>
+          <div class="tp-main-menu-mobile"></div>
+          <div class="offcanvas__btn">
+            <a class="tp-btn" href="contact.html"
+              >شروع به کار<i class="fa-regular fa-chevron-right"></i
+            ></a>
+          </div>
+          <div class="side-info-contact">
+            <span>ما اینجا هستیم</span>
+            <p>1489 خیابان لنگلی<br />گرند فورک Afb، شمال.</p>
+          </div>
+          <div class="offcanvas__social">
+            <a href="instructor-about-learning.html#"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="instructor-about-learning.html#"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="instructor-about-learning.html#"
+              ><i class="fa-brands fa-pinterest-p"></i
+            ></a>
+            <a href="instructor-about-learning.html#"
+              ><i class="fa-solid fa-paper-plane"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="body-overlay"></div>
+    <!-- offcanvas area end -->
+    <main class="tp-dashboard-body-bg">
+      <div
+        class="tpd-dashboard-wrap-bg"
+        data-background="assets/img/dashboard/bg/dashboard-bg-shape-1.jpg"
+      >
+        <div class="tpd-continue-learning-wrapper">
+          <div class="tpd-continue-learning-sidebar">
+            <div class="tpd-continue-learning-accordion">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      aria-controls="collapseOne"
+                      aria-expanded="true"
+                      class="accordion-button"
+                      data-bs-target="#collapseOne"
+                      data-bs-toggle="collapse"
+                      type="button"
+                    >
+                      شروع به کار<span>2/2</span>
+                    </button>
+                  </h2>
+                  <div
+                    aria-labelledby="headingOne"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#accordionExample"
+                    id="collapseOne"
+                  >
+                    <div class="tpd-continue-learning-body">
+                      <div class="tpd-continue-learning-body-item">
+                        <a
+                          class="active"
+                          href="instructor-about-learning.html#"
+                        >
+                          <p>
+                            <span
+                              ><svg
+                                fill="none"
+                                height="16"
+                                viewbox="0 0 16 16"
+                                width="16"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M14.2663 6.552H11.9757C10.0973 6.552 8.56768 5.008 8.56768 3.112V0.8C8.56768 0.36 8.21102 0 7.77511 0H4.41461C1.9735 0 0 1.6 0 4.456V11.544C0 14.4 1.9735 16 4.41461 16H10.6442C13.0853 16 15.0588 14.4 15.0588 11.544V7.352C15.0588 6.912 14.7022 6.552 14.2663 6.552Z"
+                                  fill="currentColor"
+                                  opacity="0.4"
+                                ></path>
+                                <path
+                                  d="M10.5439 0.168092C10.219 -0.159908 9.65625 0.0640922 9.65625 0.520092V3.31209C9.65625 4.48009 10.639 5.44809 11.8358 5.44809C12.5888 5.45609 13.6349 5.45609 14.5306 5.45609C14.9823 5.45609 15.2201 4.92009 14.9031 4.60009C13.7618 3.44009 11.7169 1.35209 10.5439 0.168092Z"
+                                  fill="currentColor"
+                                ></path>
+                                <path
+                                  d="M8.71703 9.4002H3.96161C3.63666 9.4002 3.36719 9.1282 3.36719 8.8002C3.36719 8.4722 3.63666 8.2002 3.96161 8.2002H8.71703C9.04199 8.2002 9.31146 8.4722 9.31146 8.8002C9.31146 9.1282 9.04199 9.4002 8.71703 9.4002Z"
+                                  fill="currentColor"
+                                ></path>
+                                <path
+                                  d="M7.13189 12.6H3.96161C3.63666 12.6 3.36719 12.328 3.36719 12C3.36719 11.672 3.63666 11.4 3.96161 11.4H7.13189C7.45685 11.4 7.72632 11.672 7.72632 12C7.72632 12.328 7.45685 12.6 7.13189 12.6Z"
+                                  fill="currentColor"
+                                ></path></svg></span
+                            >تاریخچه طراحی
+                          </p>
+                          <i class="fa-solid fa-circle-check"></i>
+                        </a>
+                        <a href="instructor-about-learning.html#">
+                          <p>
+                            <span
+                              ><svg
+                                fill="none"
+                                height="15"
+                                viewbox="0 0 18 15"
+                                width="18"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M13.5 14.4H4.5C1.8 14.4 0 12.6 0 9.9V4.5C0 1.8 1.8 0 4.5 0H13.5C16.2 0 18 1.8 18 4.5V9.9C18 12.6 16.2 14.4 13.5 14.4Z"
+                                  fill="currentColor"
+                                  opacity="0.4"
+                                ></path>
+                                <path
+                                  d="M8.96871 4.28506L11.6406 5.88599C12.6574 6.50256 12.6574 7.49773 11.6406 8.1143L8.96871 9.71522C7.88701 10.3642 7 9.86666 7 8.60107V5.3884C7 4.13363 7.88701 3.63604 8.96871 4.28506Z"
+                                  fill="currentColor"
+                                ></path></svg></span
+                            >تاریخچه طراحی
+                          </p>
+                          <div class="time">
+                            <p>00:14</p>
+                            <i class="fa-solid fa-circle-check"></i>
+                          </div>
+                        </a>
+                        <a href="instructor-about-learning.html#">
+                          <p>
+                            <span
+                              ><svg
+                                fill="none"
+                                height="17"
+                                viewbox="0 0 17 17"
+                                width="17"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M12.75 13.6H9.35L5.56749 16.116C5.00649 16.49 4.25 16.0905 4.25 15.4105V13.6C1.7 13.6 0 11.9 0 9.35V4.25C0 1.7 1.7 0 4.25 0H12.75C15.3 0 17 1.7 17 4.25V9.35C17 11.9 15.3 13.6 12.75 13.6Z"
+                                  fill="currentColor"
+                                  opacity="0.4"
+                                ></path>
+                                <path
+                                  d="M8.5016 8.22793C8.1531 8.22793 7.8641 7.93893 7.8641 7.59043V7.41196C7.8641 6.42596 8.58659 5.94145 8.85859 5.75445C9.17309 5.54195 9.27508 5.39746 9.27508 5.17646C9.27508 4.75146 8.9266 4.40293 8.5016 4.40293C8.0766 4.40293 7.72813 4.75146 7.72813 5.17646C7.72813 5.52496 7.43913 5.81396 7.09063 5.81396C6.74213 5.81396 6.45312 5.52496 6.45312 5.17646C6.45312 4.04596 7.3711 3.12793 8.5016 3.12793C9.6321 3.12793 10.5501 4.04596 10.5501 5.17646C10.5501 6.14546 9.83611 6.62994 9.57261 6.80844C9.24111 7.02944 9.1391 7.17396 9.1391 7.41196V7.59043C9.1391 7.94743 8.8501 8.22793 8.5016 8.22793Z"
+                                  fill="currentColor"
+                                ></path>
+                                <path
+                                  d="M8.50469 10.3443C8.14769 10.3443 7.86719 10.0553 7.86719 9.70684C7.86719 9.35834 8.15619 9.06934 8.50469 9.06934C8.85319 9.06934 9.14219 9.35834 9.14219 9.70684C9.14219 10.0553 8.86169 10.3443 8.50469 10.3443Z"
+                                  fill="currentColor"
+                                ></path></svg></span
+                            >تاریخچه طراحی
+                          </p>
+                          <i class="fa-solid fa-circle-check"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      aria-controls="collapseTwo"
+                      aria-expanded="false"
+                      class="accordion-button collapsed"
+                      data-bs-target="#collapseTwo"
+                      data-bs-toggle="collapse"
+                      type="button"
+                    >
+                      تاریخچه طراحی<span>2/2</span>
+                    </button>
+                  </h2>
+                  <div
+                    aria-labelledby="headingTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                    id="collapseTwo"
+                  >
+                    <div class="tpd-continue-learning-body">
+                      <div class="tpd-continue-learning-body-item">
+                        <a
+                          class="active"
+                          href="instructor-about-learning.html#"
+                        >
+                          <p>
+                            <span
+                              ><svg
+                                fill="none"
+                                height="16"
+                                viewbox="0 0 16 16"
+                                width="16"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M14.2663 6.552H11.9757C10.0973 6.552 8.56768 5.008 8.56768 3.112V0.8C8.56768 0.36 8.21102 0 7.77511 0H4.41461C1.9735 0 0 1.6 0 4.456V11.544C0 14.4 1.9735 16 4.41461 16H10.6442C13.0853 16 15.0588 14.4 15.0588 11.544V7.352C15.0588 6.912 14.7022 6.552 14.2663 6.552Z"
+                                  fill="currentColor"
+                                  opacity="0.4"
+                                ></path>
+                                <path
+                                  d="M10.5439 0.168092C10.219 -0.159908 9.65625 0.0640922 9.65625 0.520092V3.31209C9.65625 4.48009 10.639 5.44809 11.8358 5.44809C12.5888 5.45609 13.6349 5.45609 14.5306 5.45609C14.9823 5.45609 15.2201 4.92009 14.9031 4.60009C13.7618 3.44009 11.7169 1.35209 10.5439 0.168092Z"
+                                  fill="currentColor"
+                                ></path>
+                                <path
+                                  d="M8.71703 9.4002H3.96161C3.63666 9.4002 3.36719 9.1282 3.36719 8.8002C3.36719 8.4722 3.63666 8.2002 3.96161 8.2002H8.71703C9.04199 8.2002 9.31146 8.4722 9.31146 8.8002C9.31146 9.1282 9.04199 9.4002 8.71703 9.4002Z"
+                                  fill="currentColor"
+                                ></path>
+                                <path
+                                  d="M7.13189 12.6H3.96161C3.63666 12.6 3.36719 12.328 3.36719 12C3.36719 11.672 3.63666 11.4 3.96161 11.4H7.13189C7.45685 11.4 7.72632 11.672 7.72632 12C7.72632 12.328 7.45685 12.6 7.13189 12.6Z"
+                                  fill="currentColor"
+                                ></path></svg></span
+                            >تاریخچه طراحی
+                          </p>
+                          <i class="fa-solid fa-circle-check"></i>
+                        </a>
+                        <a href="instructor-about-learning.html#">
+                          <p>
+                            <span
+                              ><svg
+                                fill="none"
+                                height="15"
+                                viewbox="0 0 18 15"
+                                width="18"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M13.5 14.4H4.5C1.8 14.4 0 12.6 0 9.9V4.5C0 1.8 1.8 0 4.5 0H13.5C16.2 0 18 1.8 18 4.5V9.9C18 12.6 16.2 14.4 13.5 14.4Z"
+                                  fill="currentColor"
+                                  opacity="0.4"
+                                ></path>
+                                <path
+                                  d="M8.96871 4.28506L11.6406 5.88599C12.6574 6.50256 12.6574 7.49773 11.6406 8.1143L8.96871 9.71522C7.88701 10.3642 7 9.86666 7 8.60107V5.3884C7 4.13363 7.88701 3.63604 8.96871 4.28506Z"
+                                  fill="currentColor"
+                                ></path></svg></span
+                            >تاریخچه طراحی
+                          </p>
+                          <div class="time">
+                            <p>00:14</p>
+                            <i class="fa-solid fa-circle-check"></i>
+                          </div>
+                        </a>
+                        <a href="instructor-about-learning.html#">
+                          <p>
+                            <span
+                              ><svg
+                                fill="none"
+                                height="17"
+                                viewbox="0 0 17 17"
+                                width="17"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M12.75 13.6H9.35L5.56749 16.116C5.00649 16.49 4.25 16.0905 4.25 15.4105V13.6C1.7 13.6 0 11.9 0 9.35V4.25C0 1.7 1.7 0 4.25 0H12.75C15.3 0 17 1.7 17 4.25V9.35C17 11.9 15.3 13.6 12.75 13.6Z"
+                                  fill="currentColor"
+                                  opacity="0.4"
+                                ></path>
+                                <path
+                                  d="M8.5016 8.22793C8.1531 8.22793 7.8641 7.93893 7.8641 7.59043V7.41196C7.8641 6.42596 8.58659 5.94145 8.85859 5.75445C9.17309 5.54195 9.27508 5.39746 9.27508 5.17646C9.27508 4.75146 8.9266 4.40293 8.5016 4.40293C8.0766 4.40293 7.72813 4.75146 7.72813 5.17646C7.72813 5.52496 7.43913 5.81396 7.09063 5.81396C6.74213 5.81396 6.45312 5.52496 6.45312 5.17646C6.45312 4.04596 7.3711 3.12793 8.5016 3.12793C9.6321 3.12793 10.5501 4.04596 10.5501 5.17646C10.5501 6.14546 9.83611 6.62994 9.57261 6.80844C9.24111 7.02944 9.1391 7.17396 9.1391 7.41196V7.59043C9.1391 7.94743 8.8501 8.22793 8.5016 8.22793Z"
+                                  fill="currentColor"
+                                ></path>
+                                <path
+                                  d="M8.50469 10.3443C8.14769 10.3443 7.86719 10.0553 7.86719 9.70684C7.86719 9.35834 8.15619 9.06934 8.50469 9.06934C8.85319 9.06934 9.14219 9.35834 9.14219 9.70684C9.14219 10.0553 8.86169 10.3443 8.50469 10.3443Z"
+                                  fill="currentColor"
+                                ></path></svg></span
+                            >تاریخچه طراحی
+                          </p>
+                          <i class="fa-solid fa-circle-check"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      aria-controls="collapseThree"
+                      aria-expanded="false"
+                      class="accordion-button collapsed"
+                      data-bs-target="#collapseThree"
+                      data-bs-toggle="collapse"
+                      type="button"
+                    >
+                      طراحی گرافیک 101<span>1/1</span>
+                    </button>
+                  </h2>
+                  <div
+                    aria-labelledby="headingThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                    id="collapseThree"
+                  >
+                    <div class="tpd-continue-learning-body">
+                      <div class="tpd-continue-learning-body-item">
+                        <a
+                          class="active"
+                          href="instructor-about-learning.html#"
+                        >
+                          <p>
+                            <span
+                              ><svg
+                                fill="none"
+                                height="16"
+                                viewbox="0 0 16 16"
+                                width="16"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M14.2663 6.552H11.9757C10.0973 6.552 8.56768 5.008 8.56768 3.112V0.8C8.56768 0.36 8.21102 0 7.77511 0H4.41461C1.9735 0 0 1.6 0 4.456V11.544C0 14.4 1.9735 16 4.41461 16H10.6442C13.0853 16 15.0588 14.4 15.0588 11.544V7.352C15.0588 6.912 14.7022 6.552 14.2663 6.552Z"
+                                  fill="currentColor"
+                                  opacity="0.4"
+                                ></path>
+                                <path
+                                  d="M10.5439 0.168092C10.219 -0.159908 9.65625 0.0640922 9.65625 0.520092V3.31209C9.65625 4.48009 10.639 5.44809 11.8358 5.44809C12.5888 5.45609 13.6349 5.45609 14.5306 5.45609C14.9823 5.45609 15.2201 4.92009 14.9031 4.60009C13.7618 3.44009 11.7169 1.35209 10.5439 0.168092Z"
+                                  fill="currentColor"
+                                ></path>
+                                <path
+                                  d="M8.71703 9.4002H3.96161C3.63666 9.4002 3.36719 9.1282 3.36719 8.8002C3.36719 8.4722 3.63666 8.2002 3.96161 8.2002H8.71703C9.04199 8.2002 9.31146 8.4722 9.31146 8.8002C9.31146 9.1282 9.04199 9.4002 8.71703 9.4002Z"
+                                  fill="currentColor"
+                                ></path>
+                                <path
+                                  d="M7.13189 12.6H3.96161C3.63666 12.6 3.36719 12.328 3.36719 12C3.36719 11.672 3.63666 11.4 3.96161 11.4H7.13189C7.45685 11.4 7.72632 11.672 7.72632 12C7.72632 12.328 7.45685 12.6 7.13189 12.6Z"
+                                  fill="currentColor"
+                                ></path></svg></span
+                            >تاریخچه طراحی
+                          </p>
+                          <i class="fa-solid fa-circle-check"></i>
+                        </a>
+                        <a href="instructor-about-learning.html#">
+                          <p>
+                            <span
+                              ><svg
+                                fill="none"
+                                height="15"
+                                viewbox="0 0 18 15"
+                                width="18"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M13.5 14.4H4.5C1.8 14.4 0 12.6 0 9.9V4.5C0 1.8 1.8 0 4.5 0H13.5C16.2 0 18 1.8 18 4.5V9.9C18 12.6 16.2 14.4 13.5 14.4Z"
+                                  fill="currentColor"
+                                  opacity="0.4"
+                                ></path>
+                                <path
+                                  d="M8.96871 4.28506L11.6406 5.88599C12.6574 6.50256 12.6574 7.49773 11.6406 8.1143L8.96871 9.71522C7.88701 10.3642 7 9.86666 7 8.60107V5.3884C7 4.13363 7.88701 3.63604 8.96871 4.28506Z"
+                                  fill="currentColor"
+                                ></path></svg></span
+                            >تاریخچه طراحی
+                          </p>
+                          <div class="time">
+                            <p>00:14</p>
+                            <i class="fa-solid fa-circle-check"></i>
+                          </div>
+                        </a>
+                        <a href="instructor-about-learning.html#">
+                          <p>
+                            <span
+                              ><svg
+                                fill="none"
+                                height="17"
+                                viewbox="0 0 17 17"
+                                width="17"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M12.75 13.6H9.35L5.56749 16.116C5.00649 16.49 4.25 16.0905 4.25 15.4105V13.6C1.7 13.6 0 11.9 0 9.35V4.25C0 1.7 1.7 0 4.25 0H12.75C15.3 0 17 1.7 17 4.25V9.35C17 11.9 15.3 13.6 12.75 13.6Z"
+                                  fill="currentColor"
+                                  opacity="0.4"
+                                ></path>
+                                <path
+                                  d="M8.5016 8.22793C8.1531 8.22793 7.8641 7.93893 7.8641 7.59043V7.41196C7.8641 6.42596 8.58659 5.94145 8.85859 5.75445C9.17309 5.54195 9.27508 5.39746 9.27508 5.17646C9.27508 4.75146 8.9266 4.40293 8.5016 4.40293C8.0766 4.40293 7.72813 4.75146 7.72813 5.17646C7.72813 5.52496 7.43913 5.81396 7.09063 5.81396C6.74213 5.81396 6.45312 5.52496 6.45312 5.17646C6.45312 4.04596 7.3711 3.12793 8.5016 3.12793C9.6321 3.12793 10.5501 4.04596 10.5501 5.17646C10.5501 6.14546 9.83611 6.62994 9.57261 6.80844C9.24111 7.02944 9.1391 7.17396 9.1391 7.41196V7.59043C9.1391 7.94743 8.8501 8.22793 8.5016 8.22793Z"
+                                  fill="currentColor"
+                                ></path>
+                                <path
+                                  d="M8.50469 10.3443C8.14769 10.3443 7.86719 10.0553 7.86719 9.70684C7.86719 9.35834 8.15619 9.06934 8.50469 9.06934C8.85319 9.06934 9.14219 9.35834 9.14219 9.70684C9.14219 10.0553 8.86169 10.3443 8.50469 10.3443Z"
+                                  fill="currentColor"
+                                ></path></svg></span
+                            >تاریخچه طراحی
+                          </p>
+                          <i class="fa-solid fa-circle-check"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading4">
+                    <button
+                      aria-controls="collapse4"
+                      aria-expanded="false"
+                      class="accordion-button collapsed"
+                      data-bs-target="#collapse4"
+                      data-bs-toggle="collapse"
+                      type="button"
+                    >
+                      ویرایش تصویر<span>2/2</span>
+                    </button>
+                  </h2>
+                  <div
+                    aria-labelledby="heading4"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                    id="collapse4"
+                  >
+                    <div class="tpd-continue-learning-body">
+                      <div class="tpd-continue-learning-body-item">
+                        <a
+                          class="active"
+                          href="instructor-about-learning.html#"
+                        >
+                          <p>
+                            <span
+                              ><svg
+                                fill="none"
+                                height="16"
+                                viewbox="0 0 16 16"
+                                width="16"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M14.2663 6.552H11.9757C10.0973 6.552 8.56768 5.008 8.56768 3.112V0.8C8.56768 0.36 8.21102 0 7.77511 0H4.41461C1.9735 0 0 1.6 0 4.456V11.544C0 14.4 1.9735 16 4.41461 16H10.6442C13.0853 16 15.0588 14.4 15.0588 11.544V7.352C15.0588 6.912 14.7022 6.552 14.2663 6.552Z"
+                                  fill="currentColor"
+                                  opacity="0.4"
+                                ></path>
+                                <path
+                                  d="M10.5439 0.168092C10.219 -0.159908 9.65625 0.0640922 9.65625 0.520092V3.31209C9.65625 4.48009 10.639 5.44809 11.8358 5.44809C12.5888 5.45609 13.6349 5.45609 14.5306 5.45609C14.9823 5.45609 15.2201 4.92009 14.9031 4.60009C13.7618 3.44009 11.7169 1.35209 10.5439 0.168092Z"
+                                  fill="currentColor"
+                                ></path>
+                                <path
+                                  d="M8.71703 9.4002H3.96161C3.63666 9.4002 3.36719 9.1282 3.36719 8.8002C3.36719 8.4722 3.63666 8.2002 3.96161 8.2002H8.71703C9.04199 8.2002 9.31146 8.4722 9.31146 8.8002C9.31146 9.1282 9.04199 9.4002 8.71703 9.4002Z"
+                                  fill="currentColor"
+                                ></path>
+                                <path
+                                  d="M7.13189 12.6H3.96161C3.63666 12.6 3.36719 12.328 3.36719 12C3.36719 11.672 3.63666 11.4 3.96161 11.4H7.13189C7.45685 11.4 7.72632 11.672 7.72632 12C7.72632 12.328 7.45685 12.6 7.13189 12.6Z"
+                                  fill="currentColor"
+                                ></path></svg></span
+                            >تاریخچه طراحی
+                          </p>
+                          <i class="fa-solid fa-circle-check"></i>
+                        </a>
+                        <a href="instructor-about-learning.html#">
+                          <p>
+                            <span
+                              ><svg
+                                fill="none"
+                                height="15"
+                                viewbox="0 0 18 15"
+                                width="18"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M13.5 14.4H4.5C1.8 14.4 0 12.6 0 9.9V4.5C0 1.8 1.8 0 4.5 0H13.5C16.2 0 18 1.8 18 4.5V9.9C18 12.6 16.2 14.4 13.5 14.4Z"
+                                  fill="currentColor"
+                                  opacity="0.4"
+                                ></path>
+                                <path
+                                  d="M8.96871 4.28506L11.6406 5.88599C12.6574 6.50256 12.6574 7.49773 11.6406 8.1143L8.96871 9.71522C7.88701 10.3642 7 9.86666 7 8.60107V5.3884C7 4.13363 7.88701 3.63604 8.96871 4.28506Z"
+                                  fill="currentColor"
+                                ></path></svg></span
+                            >تاریخچه طراحی
+                          </p>
+                          <div class="time">
+                            <p>00:14</p>
+                            <i class="fa-solid fa-circle-check"></i>
+                          </div>
+                        </a>
+                        <a href="instructor-about-learning.html#">
+                          <p>
+                            <span
+                              ><svg
+                                fill="none"
+                                height="17"
+                                viewbox="0 0 17 17"
+                                width="17"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M12.75 13.6H9.35L5.56749 16.116C5.00649 16.49 4.25 16.0905 4.25 15.4105V13.6C1.7 13.6 0 11.9 0 9.35V4.25C0 1.7 1.7 0 4.25 0H12.75C15.3 0 17 1.7 17 4.25V9.35C17 11.9 15.3 13.6 12.75 13.6Z"
+                                  fill="currentColor"
+                                  opacity="0.4"
+                                ></path>
+                                <path
+                                  d="M8.5016 8.22793C8.1531 8.22793 7.8641 7.93893 7.8641 7.59043V7.41196C7.8641 6.42596 8.58659 5.94145 8.85859 5.75445C9.17309 5.54195 9.27508 5.39746 9.27508 5.17646C9.27508 4.75146 8.9266 4.40293 8.5016 4.40293C8.0766 4.40293 7.72813 4.75146 7.72813 5.17646C7.72813 5.52496 7.43913 5.81396 7.09063 5.81396C6.74213 5.81396 6.45312 5.52496 6.45312 5.17646C6.45312 4.04596 7.3711 3.12793 8.5016 3.12793C9.6321 3.12793 10.5501 4.04596 10.5501 5.17646C10.5501 6.14546 9.83611 6.62994 9.57261 6.80844C9.24111 7.02944 9.1391 7.17396 9.1391 7.41196V7.59043C9.1391 7.94743 8.8501 8.22793 8.5016 8.22793Z"
+                                  fill="currentColor"
+                                ></path>
+                                <path
+                                  d="M8.50469 10.3443C8.14769 10.3443 7.86719 10.0553 7.86719 9.70684C7.86719 9.35834 8.15619 9.06934 8.50469 9.06934C8.85319 9.06934 9.14219 9.35834 9.14219 9.70684C9.14219 10.0553 8.86169 10.3443 8.50469 10.3443Z"
+                                  fill="currentColor"
+                                ></path></svg></span
+                            >تاریخچه طراحی
+                          </p>
+                          <i class="fa-solid fa-circle-check"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading5">
+                    <button
+                      aria-controls="collapse5"
+                      aria-expanded="false"
+                      class="accordion-button collapsed"
+                      data-bs-target="#collapse5"
+                      data-bs-toggle="collapse"
+                      type="button"
+                    >
+                      ملزومات طراحی وب سایت<span>1/1</span>
+                    </button>
+                  </h2>
+                  <div
+                    aria-labelledby="heading5"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                    id="collapse5"
+                  >
+                    <div class="tpd-continue-learning-body">
+                      <div class="tpd-continue-learning-body-item">
+                        <a
+                          class="active"
+                          href="instructor-about-learning.html#"
+                        >
+                          <p>
+                            <span
+                              ><svg
+                                fill="none"
+                                height="16"
+                                viewbox="0 0 16 16"
+                                width="16"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M14.2663 6.552H11.9757C10.0973 6.552 8.56768 5.008 8.56768 3.112V0.8C8.56768 0.36 8.21102 0 7.77511 0H4.41461C1.9735 0 0 1.6 0 4.456V11.544C0 14.4 1.9735 16 4.41461 16H10.6442C13.0853 16 15.0588 14.4 15.0588 11.544V7.352C15.0588 6.912 14.7022 6.552 14.2663 6.552Z"
+                                  fill="currentColor"
+                                  opacity="0.4"
+                                ></path>
+                                <path
+                                  d="M10.5439 0.168092C10.219 -0.159908 9.65625 0.0640922 9.65625 0.520092V3.31209C9.65625 4.48009 10.639 5.44809 11.8358 5.44809C12.5888 5.45609 13.6349 5.45609 14.5306 5.45609C14.9823 5.45609 15.2201 4.92009 14.9031 4.60009C13.7618 3.44009 11.7169 1.35209 10.5439 0.168092Z"
+                                  fill="currentColor"
+                                ></path>
+                                <path
+                                  d="M8.71703 9.4002H3.96161C3.63666 9.4002 3.36719 9.1282 3.36719 8.8002C3.36719 8.4722 3.63666 8.2002 3.96161 8.2002H8.71703C9.04199 8.2002 9.31146 8.4722 9.31146 8.8002C9.31146 9.1282 9.04199 9.4002 8.71703 9.4002Z"
+                                  fill="currentColor"
+                                ></path>
+                                <path
+                                  d="M7.13189 12.6H3.96161C3.63666 12.6 3.36719 12.328 3.36719 12C3.36719 11.672 3.63666 11.4 3.96161 11.4H7.13189C7.45685 11.4 7.72632 11.672 7.72632 12C7.72632 12.328 7.45685 12.6 7.13189 12.6Z"
+                                  fill="currentColor"
+                                ></path></svg></span
+                            >تاریخچه طراحی
+                          </p>
+                          <i class="fa-solid fa-circle-check"></i>
+                        </a>
+                        <a href="instructor-about-learning.html#">
+                          <p>
+                            <span
+                              ><svg
+                                fill="none"
+                                height="15"
+                                viewbox="0 0 18 15"
+                                width="18"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M13.5 14.4H4.5C1.8 14.4 0 12.6 0 9.9V4.5C0 1.8 1.8 0 4.5 0H13.5C16.2 0 18 1.8 18 4.5V9.9C18 12.6 16.2 14.4 13.5 14.4Z"
+                                  fill="currentColor"
+                                  opacity="0.4"
+                                ></path>
+                                <path
+                                  d="M8.96871 4.28506L11.6406 5.88599C12.6574 6.50256 12.6574 7.49773 11.6406 8.1143L8.96871 9.71522C7.88701 10.3642 7 9.86666 7 8.60107V5.3884C7 4.13363 7.88701 3.63604 8.96871 4.28506Z"
+                                  fill="currentColor"
+                                ></path></svg></span
+                            >تاریخچه طراحی
+                          </p>
+                          <div class="time">
+                            <p>00:14</p>
+                            <i class="fa-solid fa-circle-check"></i>
+                          </div>
+                        </a>
+                        <a href="instructor-about-learning.html#">
+                          <p>
+                            <span
+                              ><svg
+                                fill="none"
+                                height="17"
+                                viewbox="0 0 17 17"
+                                width="17"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M12.75 13.6H9.35L5.56749 16.116C5.00649 16.49 4.25 16.0905 4.25 15.4105V13.6C1.7 13.6 0 11.9 0 9.35V4.25C0 1.7 1.7 0 4.25 0H12.75C15.3 0 17 1.7 17 4.25V9.35C17 11.9 15.3 13.6 12.75 13.6Z"
+                                  fill="currentColor"
+                                  opacity="0.4"
+                                ></path>
+                                <path
+                                  d="M8.5016 8.22793C8.1531 8.22793 7.8641 7.93893 7.8641 7.59043V7.41196C7.8641 6.42596 8.58659 5.94145 8.85859 5.75445C9.17309 5.54195 9.27508 5.39746 9.27508 5.17646C9.27508 4.75146 8.9266 4.40293 8.5016 4.40293C8.0766 4.40293 7.72813 4.75146 7.72813 5.17646C7.72813 5.52496 7.43913 5.81396 7.09063 5.81396C6.74213 5.81396 6.45312 5.52496 6.45312 5.17646C6.45312 4.04596 7.3711 3.12793 8.5016 3.12793C9.6321 3.12793 10.5501 4.04596 10.5501 5.17646C10.5501 6.14546 9.83611 6.62994 9.57261 6.80844C9.24111 7.02944 9.1391 7.17396 9.1391 7.41196V7.59043C9.1391 7.94743 8.8501 8.22793 8.5016 8.22793Z"
+                                  fill="currentColor"
+                                ></path>
+                                <path
+                                  d="M8.50469 10.3443C8.14769 10.3443 7.86719 10.0553 7.86719 9.70684C7.86719 9.35834 8.15619 9.06934 8.50469 9.06934C8.85319 9.06934 9.14219 9.35834 9.14219 9.70684C9.14219 10.0553 8.86169 10.3443 8.50469 10.3443Z"
+                                  fill="currentColor"
+                                ></path></svg></span
+                            >تاریخچه طراحی
+                          </p>
+                          <i class="fa-solid fa-circle-check"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading6">
+                    <button
+                      aria-controls="collapse6"
+                      aria-expanded="false"
+                      class="accordion-button collapsed"
+                      data-bs-target="#collapse6"
+                      data-bs-toggle="collapse"
+                      type="button"
+                    >
+                      طراحی اپلیکیشن<span>2/2</span>
+                    </button>
+                  </h2>
+                  <div
+                    aria-labelledby="heading6"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                    id="collapse6"
+                  >
+                    <div class="tpd-continue-learning-body">
+                      <div class="tpd-continue-learning-body-item">
+                        <a
+                          class="active"
+                          href="instructor-about-learning.html#"
+                        >
+                          <p>
+                            <span
+                              ><svg
+                                fill="none"
+                                height="16"
+                                viewbox="0 0 16 16"
+                                width="16"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M14.2663 6.552H11.9757C10.0973 6.552 8.56768 5.008 8.56768 3.112V0.8C8.56768 0.36 8.21102 0 7.77511 0H4.41461C1.9735 0 0 1.6 0 4.456V11.544C0 14.4 1.9735 16 4.41461 16H10.6442C13.0853 16 15.0588 14.4 15.0588 11.544V7.352C15.0588 6.912 14.7022 6.552 14.2663 6.552Z"
+                                  fill="currentColor"
+                                  opacity="0.4"
+                                ></path>
+                                <path
+                                  d="M10.5439 0.168092C10.219 -0.159908 9.65625 0.0640922 9.65625 0.520092V3.31209C9.65625 4.48009 10.639 5.44809 11.8358 5.44809C12.5888 5.45609 13.6349 5.45609 14.5306 5.45609C14.9823 5.45609 15.2201 4.92009 14.9031 4.60009C13.7618 3.44009 11.7169 1.35209 10.5439 0.168092Z"
+                                  fill="currentColor"
+                                ></path>
+                                <path
+                                  d="M8.71703 9.4002H3.96161C3.63666 9.4002 3.36719 9.1282 3.36719 8.8002C3.36719 8.4722 3.63666 8.2002 3.96161 8.2002H8.71703C9.04199 8.2002 9.31146 8.4722 9.31146 8.8002C9.31146 9.1282 9.04199 9.4002 8.71703 9.4002Z"
+                                  fill="currentColor"
+                                ></path>
+                                <path
+                                  d="M7.13189 12.6H3.96161C3.63666 12.6 3.36719 12.328 3.36719 12C3.36719 11.672 3.63666 11.4 3.96161 11.4H7.13189C7.45685 11.4 7.72632 11.672 7.72632 12C7.72632 12.328 7.45685 12.6 7.13189 12.6Z"
+                                  fill="currentColor"
+                                ></path></svg></span
+                            >تاریخچه طراحی
+                          </p>
+                          <i class="fa-solid fa-circle-check"></i>
+                        </a>
+                        <a href="instructor-about-learning.html#">
+                          <p>
+                            <span
+                              ><svg
+                                fill="none"
+                                height="15"
+                                viewbox="0 0 18 15"
+                                width="18"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M13.5 14.4H4.5C1.8 14.4 0 12.6 0 9.9V4.5C0 1.8 1.8 0 4.5 0H13.5C16.2 0 18 1.8 18 4.5V9.9C18 12.6 16.2 14.4 13.5 14.4Z"
+                                  fill="currentColor"
+                                  opacity="0.4"
+                                ></path>
+                                <path
+                                  d="M8.96871 4.28506L11.6406 5.88599C12.6574 6.50256 12.6574 7.49773 11.6406 8.1143L8.96871 9.71522C7.88701 10.3642 7 9.86666 7 8.60107V5.3884C7 4.13363 7.88701 3.63604 8.96871 4.28506Z"
+                                  fill="currentColor"
+                                ></path></svg></span
+                            >تاریخچه طراحی
+                          </p>
+                          <div class="time">
+                            <p>00:14</p>
+                            <i class="fa-solid fa-circle-check"></i>
+                          </div>
+                        </a>
+                        <a href="instructor-about-learning.html#">
+                          <p>
+                            <span
+                              ><svg
+                                fill="none"
+                                height="17"
+                                viewbox="0 0 17 17"
+                                width="17"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M12.75 13.6H9.35L5.56749 16.116C5.00649 16.49 4.25 16.0905 4.25 15.4105V13.6C1.7 13.6 0 11.9 0 9.35V4.25C0 1.7 1.7 0 4.25 0H12.75C15.3 0 17 1.7 17 4.25V9.35C17 11.9 15.3 13.6 12.75 13.6Z"
+                                  fill="currentColor"
+                                  opacity="0.4"
+                                ></path>
+                                <path
+                                  d="M8.5016 8.22793C8.1531 8.22793 7.8641 7.93893 7.8641 7.59043V7.41196C7.8641 6.42596 8.58659 5.94145 8.85859 5.75445C9.17309 5.54195 9.27508 5.39746 9.27508 5.17646C9.27508 4.75146 8.9266 4.40293 8.5016 4.40293C8.0766 4.40293 7.72813 4.75146 7.72813 5.17646C7.72813 5.52496 7.43913 5.81396 7.09063 5.81396C6.74213 5.81396 6.45312 5.52496 6.45312 5.17646C6.45312 4.04596 7.3711 3.12793 8.5016 3.12793C9.6321 3.12793 10.5501 4.04596 10.5501 5.17646C10.5501 6.14546 9.83611 6.62994 9.57261 6.80844C9.24111 7.02944 9.1391 7.17396 9.1391 7.41196V7.59043C9.1391 7.94743 8.8501 8.22793 8.5016 8.22793Z"
+                                  fill="currentColor"
+                                ></path>
+                                <path
+                                  d="M8.50469 10.3443C8.14769 10.3443 7.86719 10.0553 7.86719 9.70684C7.86719 9.35834 8.15619 9.06934 8.50469 9.06934C8.85319 9.06934 9.14219 9.35834 9.14219 9.70684C9.14219 10.0553 8.86169 10.3443 8.50469 10.3443Z"
+                                  fill="currentColor"
+                                ></path></svg></span
+                            >تاریخچه طراحی
+                          </p>
+                          <i class="fa-solid fa-circle-check"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading7">
+                    <button
+                      aria-controls="collapse7"
+                      aria-expanded="false"
+                      class="accordion-button collapsed"
+                      data-bs-target="#collapse7"
+                      data-bs-toggle="collapse"
+                      type="button"
+                    >
+                      روندهای فعلی طراحی<span>1/1</span>
+                    </button>
+                  </h2>
+                  <div
+                    aria-labelledby="heading7"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                    id="collapse7"
+                  >
+                    <div class="tpd-continue-learning-body">
+                      <div class="tpd-continue-learning-body-item">
+                        <a
+                          class="active"
+                          href="instructor-about-learning.html#"
+                        >
+                          <p>
+                            <span
+                              ><svg
+                                fill="none"
+                                height="16"
+                                viewbox="0 0 16 16"
+                                width="16"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M14.2663 6.552H11.9757C10.0973 6.552 8.56768 5.008 8.56768 3.112V0.8C8.56768 0.36 8.21102 0 7.77511 0H4.41461C1.9735 0 0 1.6 0 4.456V11.544C0 14.4 1.9735 16 4.41461 16H10.6442C13.0853 16 15.0588 14.4 15.0588 11.544V7.352C15.0588 6.912 14.7022 6.552 14.2663 6.552Z"
+                                  fill="currentColor"
+                                  opacity="0.4"
+                                ></path>
+                                <path
+                                  d="M10.5439 0.168092C10.219 -0.159908 9.65625 0.0640922 9.65625 0.520092V3.31209C9.65625 4.48009 10.639 5.44809 11.8358 5.44809C12.5888 5.45609 13.6349 5.45609 14.5306 5.45609C14.9823 5.45609 15.2201 4.92009 14.9031 4.60009C13.7618 3.44009 11.7169 1.35209 10.5439 0.168092Z"
+                                  fill="currentColor"
+                                ></path>
+                                <path
+                                  d="M8.71703 9.4002H3.96161C3.63666 9.4002 3.36719 9.1282 3.36719 8.8002C3.36719 8.4722 3.63666 8.2002 3.96161 8.2002H8.71703C9.04199 8.2002 9.31146 8.4722 9.31146 8.8002C9.31146 9.1282 9.04199 9.4002 8.71703 9.4002Z"
+                                  fill="currentColor"
+                                ></path>
+                                <path
+                                  d="M7.13189 12.6H3.96161C3.63666 12.6 3.36719 12.328 3.36719 12C3.36719 11.672 3.63666 11.4 3.96161 11.4H7.13189C7.45685 11.4 7.72632 11.672 7.72632 12C7.72632 12.328 7.45685 12.6 7.13189 12.6Z"
+                                  fill="currentColor"
+                                ></path></svg></span
+                            >تاریخچه طراحی
+                          </p>
+                          <i class="fa-solid fa-circle-check"></i>
+                        </a>
+                        <a href="instructor-about-learning.html#">
+                          <p>
+                            <span
+                              ><svg
+                                fill="none"
+                                height="15"
+                                viewbox="0 0 18 15"
+                                width="18"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M13.5 14.4H4.5C1.8 14.4 0 12.6 0 9.9V4.5C0 1.8 1.8 0 4.5 0H13.5C16.2 0 18 1.8 18 4.5V9.9C18 12.6 16.2 14.4 13.5 14.4Z"
+                                  fill="currentColor"
+                                  opacity="0.4"
+                                ></path>
+                                <path
+                                  d="M8.96871 4.28506L11.6406 5.88599C12.6574 6.50256 12.6574 7.49773 11.6406 8.1143L8.96871 9.71522C7.88701 10.3642 7 9.86666 7 8.60107V5.3884C7 4.13363 7.88701 3.63604 8.96871 4.28506Z"
+                                  fill="currentColor"
+                                ></path></svg></span
+                            >تاریخچه طراحی
+                          </p>
+                          <div class="time">
+                            <p>00:14</p>
+                            <i class="fa-solid fa-circle-check"></i>
+                          </div>
+                        </a>
+                        <a href="instructor-about-learning.html#">
+                          <p>
+                            <span
+                              ><svg
+                                fill="none"
+                                height="17"
+                                viewbox="0 0 17 17"
+                                width="17"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M12.75 13.6H9.35L5.56749 16.116C5.00649 16.49 4.25 16.0905 4.25 15.4105V13.6C1.7 13.6 0 11.9 0 9.35V4.25C0 1.7 1.7 0 4.25 0H12.75C15.3 0 17 1.7 17 4.25V9.35C17 11.9 15.3 13.6 12.75 13.6Z"
+                                  fill="currentColor"
+                                  opacity="0.4"
+                                ></path>
+                                <path
+                                  d="M8.5016 8.22793C8.1531 8.22793 7.8641 7.93893 7.8641 7.59043V7.41196C7.8641 6.42596 8.58659 5.94145 8.85859 5.75445C9.17309 5.54195 9.27508 5.39746 9.27508 5.17646C9.27508 4.75146 8.9266 4.40293 8.5016 4.40293C8.0766 4.40293 7.72813 4.75146 7.72813 5.17646C7.72813 5.52496 7.43913 5.81396 7.09063 5.81396C6.74213 5.81396 6.45312 5.52496 6.45312 5.17646C6.45312 4.04596 7.3711 3.12793 8.5016 3.12793C9.6321 3.12793 10.5501 4.04596 10.5501 5.17646C10.5501 6.14546 9.83611 6.62994 9.57261 6.80844C9.24111 7.02944 9.1391 7.17396 9.1391 7.41196V7.59043C9.1391 7.94743 8.8501 8.22793 8.5016 8.22793Z"
+                                  fill="currentColor"
+                                ></path>
+                                <path
+                                  d="M8.50469 10.3443C8.14769 10.3443 7.86719 10.0553 7.86719 9.70684C7.86719 9.35834 8.15619 9.06934 8.50469 9.06934C8.85319 9.06934 9.14219 9.35834 9.14219 9.70684C9.14219 10.0553 8.86169 10.3443 8.50469 10.3443Z"
+                                  fill="currentColor"
+                                ></path></svg></span
+                            >تاریخچه طراحی
+                          </p>
+                          <i class="fa-solid fa-circle-check"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tpd-continue-learning-main">
+            <div
+              class="tpd-continue-learning-popup d-flex justify-content-between align-items-center"
+            >
+              <div
+                class="tpd-continue-learning-popup-main d-flex align-items-center"
+              >
+                <a href="instructor-about-learning.html#"
+                  ><span class="close">
+                    <svg
+                      class="svg-1"
+                      fill="none"
+                      height="12"
+                      viewbox="0 0 7 12"
+                      width="7"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6 11L1 6L6 1"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      ></path>
+                    </svg> </span
+                ></a>
+                <p>مفاهیم طراحی داخلی مسترکلاس</p>
+              </div>
+              <div
+                class="tpd-continue-learning-popup-main d-flex align-items-center"
+              >
+                <p>پیشرفت شما: 8 از 10 (80%)</p>
+                <a href="course-details-2.html"
+                  ><span class="crose"
+                    ><svg
+                      class="svg-2"
+                      fill="none"
+                      height="12"
+                      viewbox="0 0 12 12"
+                      width="12"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11 1L1 11"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      ></path>
+                      <path
+                        d="M1 1L11 11"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      ></path></svg></span
+                ></a>
+              </div>
+            </div>
+            <div class="tpd-continue-learning-about-bg">
+              <div class="tpd-continue-learning-about-thumb mb-45">
+                <img alt="" src="assets/img/dashboard/bg/learning-bg.jpg" />
+              </div>
+              <div class="tpd-continue-learning-about-wrapper">
+                <h4>درباره درس</h4>
+                <p>
+                  پنج جزء اصلی زبان عبارتند از واج، تکواژ، واژگان، نحو و
+                  زمینه.<br />همراه با دستور زبان، معناشناسی و عمل شناسی،
+                </p>
+              </div>
+              <div
+                class="tpd-continue-learning-about-btn d-flex justify-content-center"
+              >
+                <div class="prv">
+                  <a href="instructor-about-learning.html#"
+                    ><span>
+                      <svg
+                        fill="none"
+                        height="10"
+                        viewbox="0 0 15 10"
+                        width="15"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M12.75 4.99988L1.5 4.99988"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"
+                        ></path>
+                        <path
+                          d="M9.75 1.25L12.7929 4.29289C13.1262 4.62622 13.2929 4.79289 13.2929 5C13.2929 5.2071 13.1262 5.37377 12.7929 5.7071L9.75 8.74999"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"
+                        ></path></svg></span
+                    >قبلی</a
+                  >
+                </div>
+                <div class="next">
+                  <a href="instructor-about-learning.html#"
+                    >بعدی<span
+                      ><svg
+                        fill="none"
+                        height="10"
+                        viewbox="0 0 15 10"
+                        width="15"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M2.25001 4.99988L13.5 4.99988"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"
+                        ></path>
+                        <path
+                          d="M5.25 1.25L2.20711 4.29289C1.87378 4.62622 1.70711 4.79289 1.70711 5C1.70711 5.2071 1.87378 5.37377 2.20711 5.7071L5.25 8.74999"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="1.5"
+                        ></path></svg></span
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- footer-area-start -->
+    <footer>
+      <div
+        class="tp-footer-main tpd-dashboard-footer pt-80 pb-55"
+        data-bg-color="#0a1c3a"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4 col-lg-3 col-md-6">
+              <div class="tp-footer-widget tp-footer-col-1 mb-30">
+                <div class="tp-footer-widget-logo mb-20 tp-header-logo">
+                  <a href="instructor-about-learning.html#"
+                    ><img alt="" src="assets/img/logo/logo-white.png"
+                  /></a>
+                </div>
+                <div class="tp-footer-widget-content">
+                  <p>
+                    بهترین شرکت راه اندازی استارت آپ دیجیتال در جهان<br />نابغه
+                    آدیپیسک.
+                  </p>
+                </div>
+                <div class="tp-footer-contact">
+                  <span>سوالاتی دارید؟ با ما تماس بگیرید</span>
+                  <a href="tel:012345678">+670 413 90 762</a>
+                </div>
+                <div class="tp-footer-contact-mail">
+                  <a href="mailto:sofial@gmail.com">
+                    <span>
+                      <svg
+                        fill="none"
+                        height="16"
+                        viewbox="0 0 18 16"
+                        width="18"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M1 5C1 2.2 2.6 1 5 1H13C15.4 1 17 2.2 17 5V10.6C17 13.4 15.4 14.6 13 14.6H5"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-width="1.5"
+                        ></path>
+                        <path
+                          d="M13 5.40039L10.496 7.40015C9.672 8.05607 8.32 8.05607 7.496 7.40015L5 5.40039"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-width="1.5"
+                        ></path>
+                        <path
+                          d="M1 11.4004H5.8"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-width="1.5"
+                        ></path>
+                        <path
+                          d="M1 8.19922H3.4"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-miterlimit="10"
+                          stroke-width="1.5"
+                        ></path>
+                      </svg> </span
+                    >acadia@gmail.com</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-3 col-md-6">
+              <div class="tp-footer-widget tp-footer-col-2 mb-30">
+                <h4 class="tp-footer-widget-title mb-15">در مورد</h4>
+                <div class="tp-footer-widget-link">
+                  <ul>
+                    <li><a href="about.html">درباره ما</a></li>
+                    <li><a href="instructor-about-learning.html#">دوره</a></li>
+                    <li>
+                      <a href="instructor-about-learning.html#"
+                        >اخبار و وبلاگ ها</a
+                      >
+                    </li>
+                    <li>
+                      <a href="instructor-about-learning.html#">معلم شوید</a>
+                    </li>
+                    <li><a href="instructor-about-learning.html#">وقایع</a></li>
+                    <li>
+                      <a href="instructor-about-learning.html#">تماس بگیرید</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-2 col-lg-2 col-md-4">
+              <div class="tp-footer-widget tp-footer-col-3 mb-30">
+                <h4 class="tp-footer-widget-title mb-15">لینک های سریع</h4>
+                <div class="tp-footer-widget-link">
+                  <ul>
+                    <li>
+                      <a href="instructor-about-learning.html#">دانش آموزان</a>
+                    </li>
+                    <li>
+                      <a href="instructor-about-learning.html#">اضافه شدن</a>
+                    </li>
+                    <li>
+                      <a href="instructor-about-learning.html#"
+                        >هیئت علمی و کارکنان</a
+                      >
+                    </li>
+                    <li>
+                      <a href="instructor-about-learning.html#"
+                        >روابط رسانه ای</a
+                      >
+                    </li>
+                    <li>
+                      <a href="instructor-about-learning.html#"
+                        >فارغ التحصیلان</a
+                      >
+                    </li>
+                    <li>
+                      <a href="instructor-about-learning.html#">بازدید کنید</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-8">
+              <div class="p-footer-widget tp-footer-col-4 mb-30">
+                <h4 class="tp-footer-widget-title mb-15">خبرنامه ما</h4>
+                <div class="tp-footer-newsletter-wrap">
+                  <p>
+                    ایمیل خود را وارد کنید تا برایتان ارسال کنیم<br />اطلاعات
+                    بیشتر
+                  </p>
+                  <form action="instructor-about-learning.html#">
+                    <div class="tp-footer-newsletter-wrapper mb-30">
+                      <div class="tp-footer-newsletter-input">
+                        <input placeholder="ایمیل شما" type="email" />
+                      </div>
+                      <div class="tp-footer-newsletter-submit">
+                        <button class="tp-btn">مشترک شوید</button>
+                      </div>
+                    </div>
+                  </form>
+                  <div class="tp-footer-newsletter-social">
+                    <a class="social-fb" href="instructor-about-learning.html#"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                    <a
+                      class="social-twit"
+                      href="instructor-about-learning.html#"
+                      ><i class="fa-brands fa-twitter"></i
+                    ></a>
+                    <a
+                      class="social-lnkd"
+                      href="instructor-about-learning.html#"
+                      ><i class="fa-brands fa-linkedin-in"></i
+                    ></a>
+                    <a
+                      class="social-yout"
+                      href="instructor-about-learning.html#"
+                      ><i class="fa-brands fa-youtube"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tp-footer-bottom tpd-dashboard-footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="tp-footer-copyright text-center">
+                <span
+                  >© 1403<a href="instructor-about-learning.html#">آکادیا</a>.
+                  تمامی حقوق محفوظ است.</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer-area-end -->
+    <!-- JS here -->
+    <script src="assets/js/vendor/jquery.js"></script>
+    <script src="assets/js/vendor/waypoints.js"></script>
+    <script src="assets/js/bootstrap-bundle.js"></script>
+    <script src="assets/js/swiper-bundle.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/range-slider.js"></script>
+    <script src="assets/js/magnific-popup.js"></script>
+    <script src="assets/js/nice-select.js"></script>
+    <script src="assets/js/select2.min.js"></script>
+    <script src="assets/js/purecounter.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/isotope-pkgd.js"></script>
+    <script src="assets/js/imagesloaded-pkgd.js"></script>
+    <script src="assets/js/flatpickr.js"></script>
+    <script src="assets/js/date.js"></script>
+    <script src="assets/js/datepicker.js"></script>
+    <script src="assets/js/fa.js"></script>
+    <script src="assets/js/ajax-form.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
