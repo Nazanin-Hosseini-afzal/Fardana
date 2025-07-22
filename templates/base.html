@@ -444,7 +444,7 @@
                                         <div class="col-xl-6 col-12">
                                           <ul>
                                             <li>
-                                            <a href="/contact/">تماس با ما</a>                                            </li>
+                                            <a href="{% url 'website:contact' %}">تماس با ما</a>                                            </li>
                                             <li>
                                               <a
                                                 class="blue"
@@ -492,7 +492,7 @@
                                         >
                                       </li>
                                       <li>
-                                        <a class="blue" href="cart.html"
+                                        <a class="blue" href="{% url 'website : cart.html' %}"
                                           >صفحه سبد</a
                                         >
                                       </li>
@@ -612,30 +612,13 @@
                     </div>
                   </li>
                   <li class="has-dropdown">
-                    <a href="blog-standard.html">وبلاگ</a>
                     <ul class="tp-submenu">
-                      <li><a href="blog-stories.html">ستون 3 وبلاگ</a></li>
-                      <li>
-                        <a href="blog-stories-sidebar.html"
-                          >سایدبار شبکه وبلاگ</a
-                        >
-                      </li>
-                      <li>
-                        <a href="blog-list.html">سایدبار فهرست وبلاگ</a>
-                      </li>
-                      <li>
-                        <a href="blog-standard.html">استاندارد وبلاگ</a>
-                      </li>
-                      <li><a href="blog-details.html">جزئیات وبلاگ</a></li>
-                      <li>
-                        <a href="blog-full-width.html"
-                          >جزئیات وبلاگ به عرض کامل</a
-                        >
-                      </li>
+                      <li><a href="{% url 'blog : index' %}">همه وبلاگ ها</a></li>
+                      <li><a href="{% url 'blog : blog-details.html' %}">وبلاگ های تکی</a></li>
                     </ul>
                   </li>
                   <li>
-                    <a href="{% url 'website:contact' %}">تماس بگیرید</a>
+                    <a href="{% url 'website:contact' %}">ارتباط با ما</a>
                   </li>
                 </ul>
               </nav>
@@ -717,7 +700,7 @@
                       <div class="tp-header-user-profile-thumb">
                         <img
                           alt=""
-                          src="{% static 'assets/img/event/user.jpg' %}' %}"
+                          src="{% static 'assets/img/event/user.jpg' %}"
                         />
                       </div>
                       <div class="tp-header-user-profile-content">
@@ -1064,7 +1047,7 @@
                   <li><a href="about.html">درباره ما</a></li>
                   <li><a href="course-with-filter.html">دوره</a></li>
                   <li><a href="blog-standard.html">اخبار و وبلاگ ها</a></li>
-                  <li><a href="become-instructor.html">معلم شوید</a></li>
+                  <li><a href="{% url 'website : become-instructor.html' %}">معلم شوید</a></li>
                   <li><a href="event.html">وقایع</a></li>
                   <li><a href="{% url 'website:contact' %}">تماس بگیرید</a></li>
                 </ul>
@@ -1149,12 +1132,12 @@
                 <a href="index-6.html#"
                   ><img
                     alt=""
-                    src="{% static 'assets/img/footer/google-play.jpg' %}' %}"
+                    src="{% static 'assets/img/footer/google-play.jpg' %}"
                 /></a>
                 <a href="index-6.html#"
                   ><img
                     alt=""
-                    src="{% static 'assets/img/footer/apple-store.jpg' %}' %}"
+                    src="{% static 'assets/img/footer/apple-store.jpg' %}"
                 /></a>
               </div>
             </div>

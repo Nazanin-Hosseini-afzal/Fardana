@@ -1,0 +1,130 @@
+@import url(aghdasi-typo/typography.css);
+
+/*
+* RTL File By Farham Aghdasi
+! RTL-THEMES | Orginal Version With Comments
+* Acadia HTML Template 1403-1405
+*/
+
+:root {
+    --font-anjoman: 'anjoman';
+    --font-anjoman-bold: 'anjoman-bold';
+    --font-aviny: 'aviny';
+    --font-behdad: 'behdad';
+    --font-dima: 'dima';
+    --font-dordane: 'dordane';
+    --font-dastnevis: 'dastnevis';
+    --font-dana: 'dana';
+    --font-dana-bold: 'dana-bold';
+    --font-dana-bold-latin: 'dana-bold-latin';
+    --font-dana-light: 'dana-light';
+    --font-dana-medium: 'dana-medium';
+    --font-dana-regular: 'dana-regular';
+    --font-dana-thin: 'dana-thin';
+    --font-fanavari-bold: 'fanavari-bold';
+    --font-fanavari-regular: 'fanavari-regular';
+    --font-estedad-bold: 'estedad-bold';
+    --font-estedad-light: 'estedad-light';
+    --font-estedad-medium: 'estedad-medium';
+    --font-hilda: 'hilda';
+    --font-hekayat: 'hekayat';
+    --font-hana: 'hana';
+    --font-hala: 'hala';
+    --font-hoor: 'hoor';
+    --font-iran: 'iran';
+    --font-iran-gerd: 'iran-gerd';
+    --font-khandevane: 'khandevane';
+    --font-kalameh: 'kalameh';
+    --font-khaton: 'khaton';
+    --font-lalezar: 'lalezar';
+    --font-mahboubeh: 'mahboubeh';
+    --font-nahid: 'nahid';
+    --font-negaar: 'negaar';
+    --font-negaar-bold: 'negaar-bold';
+    --font-nic: 'nic';
+    --font-pinar: 'pinar';
+    --font-pinar-ds1: 'pinar ds1';
+    --font-pinar-ds2: 'pinar ds2';
+    --font-iranyekan: 'iranyekan';
+    --font-iranyekanweb: 'iranyekanweb';
+    --font-vazirmatn-thin: 'vazirmatn';
+    --font-vazirmatn-extralight: 'vazirmatn';
+    --font-vazirmatn-light: 'vazirmatn';
+    --font-vazirmatn-regular: 'vazirmatn';
+    --font-vazirmatn-medium: 'vazirmatn';
+    --font-vazirmatn-semibold: 'vazirmatn';
+    --font-vazirmatn-bold: 'vazirmatn';
+    --font-vazirmatn-extrabold: 'vazirmatn';
+    --font-vazirmatn-black: 'vazirmatn';
+    --font-yekanbakh-light: 'yekanbakh';
+    --font-estedad: 'estedad';
+    --font-yekanbakh-regular: 'yekanbakh';
+    --font-yekanbakh-semibold: 'yekanbakh';
+    --font-yekanbakh-bold: 'yekanbakh';
+    --font-yekanbakh-extrabold: 'yekanbakh';
+    --font-iransans: 'iransans';
+    --font-iransans-medium: 'iransans-medium';
+  }
+      /**
+  * Fonts
+  */
+  h1 , h2 , h3 ,h4 ,h5 ,h6 {
+    font-family: 'peyda' !important;
+  }
+  *:not(h1 ,h2,h3,h4,h5,h6,i,.fa,.fc-icon) , .tp-fact-count , .tp-pricing-5-price {
+    font-family: var(--font-yekanbakh-bold) !important;
+  }
+      /**
+  * Slider
+  */
+  body , .owl-item , .slick-slide , #calendar , .tp-testimonial-2-content p , .selection , .select2-results__options {
+    direction: rtl;
+  }
+  .owl-carousel , .slick-slider:not(.index2-fix) , .tp-testimonial-2-avatar-active , .tp-testimonial-2-active {
+    direction: ltr;
+  }
+  .slick-arrow {
+    direction:  none !important;
+  }
+      /** 
+  * Gobal
+  */
+  html {
+    overflow-x: hidden !important;
+  }
+  * {
+    letter-spacing: 0 !important;
+  }
+  
+      /**
+  * Icons
+  */
+  /** you can change this 160px **/
+  .tp-btn-circle { 
+    width: 160px;
+    height: 160px;
+  }
+  /* svg[height="12"] {
+    transform: scale(-1, 1);
+} */
+ .tp-about-banner-content  svg{
+  transform: scale(-1,1);
+ }
+  .tpd-action-approv button svg, .tp-cart-list tr td .tp-cart-action-btn svg, .tp-order-details-icon span svg, .tp-product-details-action-sm-btn svg, .tp-product-details-wishlist-btn svg, .tp-process-3-btn a svg, .tp-event-4-content span img, .tp-footer-4-top-btn span svg, .tp-header-2-category p span img, .tp-header-2-login button span svg, .tp-header-4-btn-top a span svg, .tp-header-4-btn-top a i svg, .tp-header-4-search span svg, .tp-pagination ul li a svg, .tp-pagination ul li span svg , .icon svg  {
+    transform: translateY(-2px) scale(-1,1) !important;
+  }
+  .tp-shop-banner-btn a span , .tp-shop-feature-btn a span ,.tp-shop-author-btn span , .tp-btn span {
+    transform: translateY(-1px) scale(-1,1) !important;
+  }
+  .tp-hero-6-btn .tp-btn-inner span , .tp-shop-cta-btn span , .tp-postbox-btn span{
+    transform: scale(-1,1) translateY(-2px) !important;
+  }
+  .tp-btn-border span ,.tp-live-join .tp-btn-border i svg , .tp-category-5-title a span , .tp-footer-2 span svg , .tp-live-7-ptb span svg, .tp-megamenu-main span svg , .tp-service-btn span , .tp-service-all svg , .tp-program-all a span , .tp-event-arrow svg , .tp-leadership-btn a span ,.tp-undergraduate-program-list ul li a span , .tp-program-4-btn span , .tp-school-4-btn span , .tp-hero-4-btn span , .tp-our-mission-item-btn svg  {
+    transform: scale(-1,1);
+  }
+  .tp-process-3-shape-1 svg {
+    transform: rotateY(180deg);
+  }
+  .tp-megamenu-fullwidth-content span {
+    transform: none !important;
+  }

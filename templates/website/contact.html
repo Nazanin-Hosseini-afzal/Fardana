@@ -1,3 +1,7 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
 <!doctype html>
 
 <html class="no-js" lang="fa">
@@ -9,20 +13,20 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <!-- Place favicon.ico in the root directory -->
     <link
-      href="assets/img/logo/favicon.png"
+      href="{% static 'assets/img/logo/favicon.png' %}"
       rel="shortcut icon"
       type="image/x-icon"
     />
     <!-- CSS here -->
-    <link href="assets/css/bootstrap.rtl.css" rel="stylesheet" />
-    <link href="assets/css/animate.css" rel="stylesheet" />
-    <link href="assets/css/swiper-bundle.rtl.css" rel="stylesheet" />
-    <link href="assets/css/slick.css" rel="stylesheet" />
-    <link href="assets/css/magnific-popup.css" rel="stylesheet" />
-    <link href="assets/css/font-awesome-pro.css" rel="stylesheet" />
-    <link href="assets/css/spacing.rtl.css" rel="stylesheet" />
-    <link href="assets/css/main.rtl.css" rel="stylesheet" />
-    <link href="assets/css/datepicker.css" rel="stylesheet" />
+    <link href="{% static 'assets/css/bootstrap.rtl.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/css/animate.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/css/swiper-bundle.rtl.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/css/slick.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/css/magnific-popup.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/css/font-awesome-pro.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/css/spacing.rtl.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/css/main.rtl.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/css/datepicker.css' %}" rel="stylesheet" />
   </head>
   <body>
     <!-- pre loader area start -->
@@ -58,7 +62,7 @@
                   ></circle>
                 </svg>
               </div>
-              <img alt="" src="assets/img/logo/preloader/preloader-icon.png" />
+              <img alt="" src="{% static 'assets/img/logo/preloader/preloader-icon.png' %}" />
             </div>
             <p class="tp-preloader-subtitle">بارگیری ...</p>
           </div>
@@ -162,7 +166,7 @@
                             <a href="course-details-2.html"
                               ><img
                                 alt=""
-                                src="assets/img/course/search/search-1.jpg"
+                                src="{% static 'assets/img/course/search/search-1.jpg' %}"
                             /></a>
                           </div>
                           <div class="tp-search-course-content">
@@ -255,7 +259,7 @@
                             <a href="course-details-2.html"
                               ><img
                                 alt=""
-                                src="assets/img/course/search/search-2.jpg"
+                                src="{% static 'assets/img/course/search/search-2.jpg' %}"
                             /></a>
                           </div>
                           <div class="tp-search-course-content">
@@ -346,7 +350,7 @@
                             <a href="course-details-2.html"
                               ><img
                                 alt=""
-                                src="assets/img/course/search/search-3.jpg"
+                                src="{% static 'assets/img/course/search/search-3.jpg' %}"
                             /></a>
                           </div>
                           <div class="tp-search-course-content">
@@ -437,7 +441,7 @@
                             <a href="course-details-2.html"
                               ><img
                                 alt=""
-                                src="assets/img/course/search/search-4.jpg"
+                                src="{% static 'assets/img/course/search/search-4.jpg' %}"
                             /></a>
                           </div>
                           <div class="tp-search-course-content">
@@ -567,7 +571,7 @@
                 <a href="shop-details.html">
                   <img
                     alt=""
-                    src="assets/img/shop/product/shop-product-1.jpg"
+                    src="{% static 'assets/img/shop/product/shop-product-1.jpg' %}"
                   />
                 </a>
               </div>
@@ -588,7 +592,7 @@
           <!-- for wp -->
           <!-- if no item in cart -->
           <div class="cartmini__empty text-center d-none">
-            <img alt="" src="assets/img/shop/empty-cart.png" />
+            <img alt="" src="{% static 'assets/img/shop/empty-cart.png' %}" />
             <p>سبد خرید شما خالی است</p>
             <a class="tp-btn" href="shop.html">برو به فروشگاه</a>
           </div>
@@ -618,7 +622,7 @@
               <div class="tp-header-2-right d-flex align-items-center">
                 <div class="tp-header-inner-logo tp-header-logo">
                   <a href="index.html">
-                    <img alt="logo" src="assets/img/logo/logo-black.png" />
+                    <img alt="logo" src="{% static 'assets/img/logo/logo-black.png' %}" />
                   </a>
                 </div>
                 <div
@@ -695,7 +699,7 @@
                                   <a href="index.html"
                                     ><img
                                       alt=""
-                                      src="assets/img/menu/home-1.jpg"
+                                      src="{% static 'assets/img/menu/home-1.jpg' %}"
                                   /></a>
                                 </div>
                                 <h4 class="tp-megamenu-home-title">
@@ -711,7 +715,7 @@
                                   <a href="index-2.html"
                                     ><img
                                       alt=""
-                                      src="assets/img/menu/home-2.jpg"
+                                      src="{% static 'assets/img/menu/home-2.jpg' %}"
                                   /></a>
                                 </div>
                                 <h4 class="tp-megamenu-home-title">
@@ -729,7 +733,7 @@
                                   <a href="index-3.html"
                                     ><img
                                       alt=""
-                                      src="assets/img/menu/home-3.jpg"
+                                      src="{% static 'assets/img/menu/home-3.jpg' %}"
                                   /></a>
                                 </div>
                                 <h4 class="tp-megamenu-home-title">
@@ -747,7 +751,7 @@
                                   <a href="index-5.html"
                                     ><img
                                       alt=""
-                                      src="assets/img/menu/home-4.jpg"
+                                      src="{% static 'assets/img/menu/home-4.jpg' %}"
                                   /></a>
                                 </div>
                                 <h4 class="tp-megamenu-home-title">
@@ -765,7 +769,7 @@
                                   <a href="index-4.html"
                                     ><img
                                       alt=""
-                                      src="assets/img/menu/home-5.jpg"
+                                      src="{% static 'assets/img/menu/home-5.jpg' %}"
                                   /></a>
                                 </div>
                                 <h4 class="tp-megamenu-home-title">
@@ -781,7 +785,7 @@
                               >
                                 <div class="tp-megamenu-home-thumb">
                                   <a href="shop.html"
-                                    ><img alt="" src="assets/img/menu/shop.jpg"
+                                    ><img alt="" src="{% static 'assets/img/menu/shop.jpg' %}"
                                   /></a>
                                 </div>
                                 <h4 class="tp-megamenu-home-title">
@@ -797,7 +801,7 @@
                                   <a href="index-6.html"
                                     ><img
                                       alt=""
-                                      src="assets/img/menu/home-6.jpg"
+                                      src="{% static 'assets/img/menu/home-6.jpg' %}"
                                   /></a>
                                 </div>
                                 <h4 class="tp-megamenu-home-title">
@@ -815,7 +819,7 @@
                                   <a href="index-7.html">
                                     <img
                                       alt=""
-                                      src="assets/img/menu/home-7.jpg"
+                                      src="{% static 'assets/img/menu/home-7.jpg' %}"
                                     />
                                   </a>
                                 </div>
@@ -893,7 +897,7 @@
                                   </h4>
                                   <img
                                     alt=""
-                                    src="assets/img/menu/menu-shape-2.png"
+                                    src="{% static 'assets/img/menu/menu-shape-2.png' %}"
                                   />
                                   <p>
                                     هر چیزی که در آن یاد گرفتم<br />هر چیزی که
@@ -929,7 +933,7 @@
                                   >
                                     <img
                                       alt=""
-                                      src="assets/img/menu/menu-shape.png"
+                                      src="{% static 'assets/img/menu/menu-shape.png' %}"
                                     />
                                   </div>
                                 </div>
@@ -1021,7 +1025,7 @@
                             <div class="tp-megamenu-courses-thumb">
                               <img
                                 alt=""
-                                src="assets/img/menu/menu-shape-3.png"
+                                src="{% static 'assets/img/menu/menu-shape-3.png' %}"
                               />
                             </div>
                           </div>
@@ -1347,7 +1351,7 @@
                                       >
                                         <img
                                           alt=""
-                                          src="assets/img/shape/menu-shape-1.png"
+                                          src="{% static 'assets/img/shape/menu-shape-1.png' %}"
                                         />
                                       </div>
                                     </div>
@@ -1389,7 +1393,7 @@
                                       >
                                         <img
                                           alt=""
-                                          src="assets/img/shape/menu-shape-2.png"
+                                          src="{% static 'assets/img/shape/menu-shape-2.png' %}"
                                         />
                                       </div>
                                     </div>
@@ -1508,7 +1512,7 @@
                 </div>
                 <div class="tp-header-inner-login tp-header-user-hover">
                   <button>
-                    <img alt="" src="assets/img/event/user.jpg" />
+                    <img alt="" src="{% static 'assets/img/event/user.jpg' %}" />
                   </button>
                   <div class="tp-header-user-box">
                     <div class="tp-header-user-content">
@@ -1516,7 +1520,7 @@
                         class="tp-header-user-profile d-flex align-items-center"
                       >
                         <div class="tp-header-user-profile-thumb">
-                          <img alt="" src="assets/img/event/user.jpg" />
+                          <img alt="" src="{% static 'assets/img/event/user.jpg' %}" />
                         </div>
                         <div class="tp-header-user-profile-content">
                           <h4>فلوید مایلز</h4>
@@ -1825,7 +1829,7 @@
           >
             <div class="offcanvas__logo tp-header-logo">
               <a href="index.html">
-                <img alt="logo" src="assets/img/logo/logo-black.png" />
+                <img alt="logo" src="{% static 'assets/img/logo/logo-black.png' %}" />
               </a>
             </div>
           </div>
@@ -1845,7 +1849,7 @@
                     <a href="contact.html#"
                       ><img
                         alt=""
-                        src="assets/img/menu/offcanvas/offcanvas-1.jpg"
+                        src="{% static 'assets/img/menu/offcanvas/offcanvas-1.jpg' %}"
                     /></a>
                   </div>
                 </div>
@@ -1854,7 +1858,7 @@
                     <a href="contact.html#"
                       ><img
                         alt=""
-                        src="assets/img/menu/offcanvas/offcanvas-2.jpg"
+                        src="{% static 'assets/img/menu/offcanvas/offcanvas-2.jpg' %}"
                     /></a>
                   </div>
                 </div>
@@ -1863,7 +1867,7 @@
                     <a href="contact.html#"
                       ><img
                         alt=""
-                        src="assets/img/menu/offcanvas/offcanvas-3.jpg"
+                        src="{% static 'assets/img/menu/offcanvas/offcanvas-3.jpg' %}"
                     /></a>
                   </div>
                 </div>
@@ -1872,7 +1876,7 @@
                     <a href="contact.html#"
                       ><img
                         alt=""
-                        src="assets/img/menu/offcanvas/offcanvas-4.jpg"
+                        src="{% static 'assets/img/menu/offcanvas/offcanvas-4.jpg' %}"
                     /></a>
                   </div>
                 </div>
@@ -2018,7 +2022,7 @@
       >
         <div
           class="tp-contact-bg"
-          data-background="assets/img/live/contact-bg.png"
+          data-background="{% static 'assets/img/live/contact-bg.png' %}"
         ></div>
         <div class="tp-contact-shape">
           <span>
@@ -2048,7 +2052,7 @@
           </span>
         </div>
         <div class="tp-contact-shape-2">
-          <img alt="" src="assets/img/live/contact-shape-2.svg" />
+          <img alt="" src="{% static 'assets/img/live/contact-shape-2.svg' %}" />
         </div>
         <div class="container">
           <div class="row justify-content-center">
@@ -2263,7 +2267,7 @@
               <div class="tp-footer-widget tp-footer-col-1 mb-30">
                 <div class="tp-footer-widget-logo mb-20 tp-header-logo">
                   <a href="index.html"
-                    ><img alt="" src="assets/img/logo/logo-black-2.png"
+                    ><img alt="" src="{% static 'assets/img/logo/logo-black-2.png' %}"
                   /></a>
                 </div>
                 <div class="tp-footer-widget-content">
@@ -2416,25 +2420,27 @@
     </footer>
     <!-- footer-area-end -->
     <!-- JS here -->
-    <script src="assets/js/vendor/jquery.js"></script>
-    <script src="assets/js/vendor/waypoints.js"></script>
-    <script src="assets/js/bootstrap-bundle.js"></script>
-    <script src="assets/js/swiper-bundle.js"></script>
-    <script src="assets/js/slick.js"></script>
-    <script src="assets/js/range-slider.js"></script>
-    <script src="assets/js/magnific-popup.js"></script>
-    <script src="assets/js/nice-select.js"></script>
-    <script src="assets/js/select2.min.js"></script>
-    <script src="assets/js/purecounter.js"></script>
-    <script src="assets/js/countdown.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/isotope-pkgd.js"></script>
-    <script src="assets/js/imagesloaded-pkgd.js"></script>
-    <script src="assets/js/flatpickr.js"></script>
-    <script src="assets/js/date.js"></script>
-    <script src="assets/js/datepicker.js"></script>
-    <script src="assets/js/fa.js"></script>
-    <script src="assets/js/ajax-form.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="{% static 'assets/js/vendor/jquery.js' %}"></script>
+    <script src="{% static 'assets/js/vendor/waypoints.js' %}"></script>
+    <script src="{% static 'assets/js/bootstrap-bundle.js' %}"></script>
+    <script src="{% static 'assets/js/swiper-bundle.js' %}"></script>
+    <script src="{% static 'assets/js/slick.js' %}"></script>
+    <script src="{% static 'assets/js/range-slider.js' %}"></script>
+    <script src="{% static 'assets/js/magnific-popup.js' %}"></script>
+    <script src="{% static 'assets/js/nice-select.js' %}"></script>
+    <script src="{% static 'assets/js/select2.min.js' %}"></script>
+    <script src="{% static 'assets/js/purecounter.js' %}"></script>
+    <script src="{% static 'assets/js/countdown.js' %}"></script>
+    <script src="{% static 'assets/js/wow.js' %}"></script>
+    <script src="{% static 'assets/js/isotope-pkgd.js' %}"></script>
+    <script src="{% static 'assets/js/imagesloaded-pkgd.js' %}"></script>
+    <script src="{% static 'assets/js/flatpickr.js' %}"></script>
+    <script src="{% static 'assets/js/date.js' %}"></script>
+    <script src="{% static 'assets/js/datepicker.js' %}"></script>
+    <script src="{% static 'assets/js/fa.js' %}"></script>
+    <script src="{% static 'assets/js/ajax-form.js' %}"></script>
+    <script src="{% static 'assets/js/main.js' %}"></script>
   </body>
 </html>
+
+{% endblock %}
