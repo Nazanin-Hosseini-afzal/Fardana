@@ -1,3 +1,7 @@
 from django.shortcuts import render
-from blog_view (reouest) :
-return render (request, 'blog/blog.html')
+
+def blog_view (request) :
+    return render (request, 'blog-stories.html')
+
+def blog_single (request) :
+    return render (request, 'blog-details.html')

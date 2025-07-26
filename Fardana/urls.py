@@ -24,8 +24,8 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),  
-    path('', include('website.url')),  
-
+    path('', include('website.url')),
+    path('blog/', include('blog.urls')),
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root = settings.STATIC_ROOT)

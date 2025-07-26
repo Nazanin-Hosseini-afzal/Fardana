@@ -17,10 +17,6 @@
               </a>
             </div>
             <div class="tp-header-2-category home-6 d-none d-md-block">
-              <a
-                class="tp-header-2-category-icon"
-                href="course-with-sidebar.html"
-              >
                 <p>
                   <span
                     ><svg
@@ -53,17 +49,6 @@
               </a>
               <div class="tp-header-2-category-list">
                 <ul>
-                  <li>
-                    <a href="course-with-sidebar.html">یادگیری انگلیسی</a>
-                  </li>
-                  <li><a href="course-with-sidebar.html">توسعه وب</a></li>
-                  <li><a href="course-with-sidebar.html">طراحی آرم</a></li>
-                  <li>
-                    <a href="course-with-sidebar.html">گرافیک حرکت</a>
-                  </li>
-                  <li>
-                    <a href="course-with-sidebar.html">نسخه ویدیویی</a>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -278,20 +263,9 @@
                                 <h4 class="tp-megamenu-courses-title">
                                   طرح دوره
                                 </h4>
-                                <a href="course-categories.html"
-                                  >دسته های دوره</a
+                                <a href="{% url 'website:course' %}"
+                                  >همه دوره ها</a
                                 >
-                                <a href="course-with-filter.html"
-                                  >دوره با فیلتر</a
-                                >
-                                <a href="course-open-filter.html"
-                                  >دوره فیلتر باز</a
-                                >
-                                <a href="course-with-tab.html">دوره با تب</a>
-                                <a href="course-with-tab-list.html"
-                                  >دوره با لیست برگه</a
-                                >
-                                <a href="course-column-2.html">ستون دوره دو</a>
                               </div>
                             </div>
                             <div class="col-xl-6">
@@ -299,16 +273,6 @@
                                 <h4 class="tp-megamenu-courses-title">
                                   طرح دوره
                                 </h4>
-                                <a href="course-with-sidebar.html"
-                                  >دوره با نوار کناری</a
-                                >
-                                <a href="course-details-2.html">جزئیات دوره</a>
-                                <a href="course-details-3.html"
-                                  >جزئیات دوره دو</a
-                                >
-                                <a href="instructor-about-learning.html"
-                                  >درس دوره<span>جدید</span></a
-                                >
                                 <a href="instructor-create-new-course.html"
                                   >دوره ایجاد کنید<span>جدید</span></a
                                 >
@@ -400,21 +364,21 @@
                                         <div class="col-xl-6 col-12">
                                           <ul>
                                             <li>
-                                              <a class="blue" href="event.html"
+                                              <a class="blue" href="{%  url 'website:event' %}"
                                                 >وقایع</a
                                               >
                                             </li>
                                             <li>
                                               <a
                                                 class="blue"
-                                                href="event-details.html"
+                                                href="{%  url 'website:event_details' %}"
                                                 >جزئیات رویداد</a
                                               >
                                             </li>
                                             <li>
                                               <a
                                                 class="blue"
-                                                href="instructor.html"
+                                                href="{% url 'website:become-instructor' %}"
                                                 >مربی</a
                                               >
                                             </li>
@@ -428,7 +392,7 @@
                                             <li>
                                               <a
                                                 class="blue"
-                                                href="become-instructor.html"
+                                                href="{% url 'website:become-instructor' %}"
                                                 >مدرس شوید</a
                                               >
                                             </li>
@@ -453,7 +417,7 @@
                                               >
                                             </li>
                                             <li>
-                                              <a class="blue" href="faq.html"
+                                              <a class="blue" href="{% url 'website:faq' %}"
                                                 >متداول</a
                                               >
                                             </li>
@@ -465,7 +429,7 @@
                                               >
                                             </li>
                                             <li>
-                                              <a class="blue" href="error.html"
+                                              <a class="blue" href="{% url 'website:error' %}"
                                                 >404 صفحه</a
                                               >
                                             </li>
@@ -492,7 +456,7 @@
                                         >
                                       </li>
                                       <li>
-                                        <a class="blue" href="{% url 'website : cart.html' %}"
+                                        <a class="blue" href="{% url 'website:cart' %}"
                                           >صفحه سبد</a
                                         >
                                       </li>
@@ -536,7 +500,7 @@
                                       </h4>
                                       <a
                                         class="tp-btn"
-                                        href="course-categories.html"
+                                        href="{% url 'website:course' %}"
                                         >همه دوره ها<span
                                           ><svg
                                             fill="none"
@@ -613,8 +577,8 @@
                   </li>
                   <li class="has-dropdown">
                     <ul class="tp-submenu">
-                      <li><a href="{% url 'blog : index' %}">همه وبلاگ ها</a></li>
-                      <li><a href="{% url 'blog : blog-details.html' %}">وبلاگ های تکی</a></li>
+                      <li><a href="{% url 'blog:blog-stories' %}">همه وبلاگ ها</a></li>
+                      <li><a href="{% url 'blog:blog-details' %}">وبلاگ های تکی</a></li>
                     </ul>
                   </li>
                   <li>
@@ -964,7 +928,7 @@
                 </div>
               </div>
               <div class="tp-header-6-btn ml-20 d-none d-xxl-block">
-                <a class="tp-btn-inner" href="course-with-filter.html"
+                <a class="tp-btn-inner" href="{% url 'website:course' %}"
                   >رایگان</a
                 >
               </div>
@@ -1045,10 +1009,10 @@
               <div class="tp-footer-widget-link">
                 <ul>
                   <li><a href="about.html">درباره ما</a></li>
-                  <li><a href="course-with-filter.html">دوره</a></li>
-                  <li><a href="blog-standard.html">اخبار و وبلاگ ها</a></li>
-                  <li><a href="{% url 'website : become-instructor.html' %}">معلم شوید</a></li>
-                  <li><a href="event.html">وقایع</a></li>
+                  <li><a href="{% url 'website:course' %}">دوره ها</a></li>
+                  <li><a href="{% url 'blog:blog-stories' %}" >اخبار و وبلاگ ها</a></li>
+                  <li><a href="{% url 'website:become-instructor' %}">معلم شوید</a></li>
+                  <li><a href="{%  url 'website:event' %}">وقایع</a></li>
                   <li><a href="{% url 'website:contact' %}">تماس بگیرید</a></li>
                 </ul>
               </div>

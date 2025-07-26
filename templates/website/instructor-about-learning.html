@@ -1,3 +1,7 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
 <!doctype html>
 
 <html class="no-js" lang="fa">
@@ -9,21 +13,21 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <!-- Place favicon.ico in the root directory -->
     <link
-      href="assets/img/logo/favicon.png"
+      href="{% static 'assets/img/logo/favicon.png' %}"
       rel="shortcut icon"
       type="image/x-icon"
     />
     <!-- CSS here -->
-    <link href="assets/css/bootstrap.rtl.css" rel="stylesheet" />
-    <link href="assets/css/animate.css" rel="stylesheet" />
-    <link href="assets/css/swiper-bundle.rtl.css" rel="stylesheet" />
-    <link href="assets/css/slick.css" rel="stylesheet" />
-    <link href="assets/css/magnific-popup.css" rel="stylesheet" />
-    <link href="assets/css/flatpickr.min.css" rel="stylesheet" />
-    <link href="assets/css/font-awesome-pro.css" rel="stylesheet" />
-    <link href="assets/css/spacing.rtl.css" rel="stylesheet" />
-    <link href="assets/css/main.rtl.css" rel="stylesheet" />
-    <link href="assets/css/datepicker.css" rel="stylesheet" />
+    <link href="{% static 'assets/css/bootstrap.rtl.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/css/animate.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/css/swiper-bundle.rtl.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/css/slick.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/css/magnific-popup.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/css/flatpickr.min.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/css/font-awesome-pro.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/css/spacing.rtl.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/css/main.rtl.css' %}" rel="stylesheet" />
+    <link href="{% static 'assets/css/datepicker.css' %}" rel="stylesheet" />
   </head>
   <body>
     <!-- pre loader area start -->
@@ -59,7 +63,7 @@
                   ></circle>
                 </svg>
               </div>
-              <img alt="" src="assets/img/logo/preloader/preloader-icon.png" />
+              <img alt="" src="{% static 'assets/img/logo/preloader/preloader-icon.png' %}" />
             </div>
             <p class="tp-preloader-subtitle">بارگیری ...</p>
           </div>
@@ -123,7 +127,7 @@
           >
             <div class="offcanvas__logo logo">
               <a href="index.html">
-                <img alt="logo" src="assets/img/logo/logo-black-2.png" />
+                <img alt="logo" src="{% static 'assets/img/logo/logo-black-2.png' %}" />
               </a>
             </div>
           </div>
@@ -159,7 +163,7 @@
     <main class="tp-dashboard-body-bg">
       <div
         class="tpd-dashboard-wrap-bg"
-        data-background="assets/img/dashboard/bg/dashboard-bg-shape-1.jpg"
+        data-background="{% static 'assets/img/dashboard/bg/dashboard-bg-shape-1.jpg' %}"
       >
         <div class="tpd-continue-learning-wrapper">
           <div class="tpd-continue-learning-sidebar">
@@ -1013,7 +1017,7 @@
             </div>
             <div class="tpd-continue-learning-about-bg">
               <div class="tpd-continue-learning-about-thumb mb-45">
-                <img alt="" src="assets/img/dashboard/bg/learning-bg.jpg" />
+                <img alt="" src="{% static 'assets/img/dashboard/bg/learning-bg.jpg' %}" />
               </div>
               <div class="tpd-continue-learning-about-wrapper">
                 <h4>درباره درس</h4>
@@ -1084,214 +1088,27 @@
         </div>
       </div>
     </main>
-    <!-- footer-area-start -->
-    <footer>
-      <div
-        class="tp-footer-main tpd-dashboard-footer pt-80 pb-55"
-        data-bg-color="#0a1c3a"
-      >
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-4 col-lg-3 col-md-6">
-              <div class="tp-footer-widget tp-footer-col-1 mb-30">
-                <div class="tp-footer-widget-logo mb-20 tp-header-logo">
-                  <a href="instructor-about-learning.html#"
-                    ><img alt="" src="assets/img/logo/logo-white.png"
-                  /></a>
-                </div>
-                <div class="tp-footer-widget-content">
-                  <p>
-                    بهترین شرکت راه اندازی استارت آپ دیجیتال در جهان<br />نابغه
-                    آدیپیسک.
-                  </p>
-                </div>
-                <div class="tp-footer-contact">
-                  <span>سوالاتی دارید؟ با ما تماس بگیرید</span>
-                  <a href="tel:012345678">+670 413 90 762</a>
-                </div>
-                <div class="tp-footer-contact-mail">
-                  <a href="mailto:sofial@gmail.com">
-                    <span>
-                      <svg
-                        fill="none"
-                        height="16"
-                        viewbox="0 0 18 16"
-                        width="18"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M1 5C1 2.2 2.6 1 5 1H13C15.4 1 17 2.2 17 5V10.6C17 13.4 15.4 14.6 13 14.6H5"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-miterlimit="10"
-                          stroke-width="1.5"
-                        ></path>
-                        <path
-                          d="M13 5.40039L10.496 7.40015C9.672 8.05607 8.32 8.05607 7.496 7.40015L5 5.40039"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-miterlimit="10"
-                          stroke-width="1.5"
-                        ></path>
-                        <path
-                          d="M1 11.4004H5.8"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-miterlimit="10"
-                          stroke-width="1.5"
-                        ></path>
-                        <path
-                          d="M1 8.19922H3.4"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-miterlimit="10"
-                          stroke-width="1.5"
-                        ></path>
-                      </svg> </span
-                    >acadia@gmail.com</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-2 col-lg-3 col-md-6">
-              <div class="tp-footer-widget tp-footer-col-2 mb-30">
-                <h4 class="tp-footer-widget-title mb-15">در مورد</h4>
-                <div class="tp-footer-widget-link">
-                  <ul>
-                    <li><a href="about.html">درباره ما</a></li>
-                    <li><a href="instructor-about-learning.html#">دوره</a></li>
-                    <li>
-                      <a href="instructor-about-learning.html#"
-                        >اخبار و وبلاگ ها</a
-                      >
-                    </li>
-                    <li>
-                      <a href="instructor-about-learning.html#">معلم شوید</a>
-                    </li>
-                    <li><a href="instructor-about-learning.html#">وقایع</a></li>
-                    <li>
-                      <a href="instructor-about-learning.html#">تماس بگیرید</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-2 col-lg-2 col-md-4">
-              <div class="tp-footer-widget tp-footer-col-3 mb-30">
-                <h4 class="tp-footer-widget-title mb-15">لینک های سریع</h4>
-                <div class="tp-footer-widget-link">
-                  <ul>
-                    <li>
-                      <a href="instructor-about-learning.html#">دانش آموزان</a>
-                    </li>
-                    <li>
-                      <a href="instructor-about-learning.html#">اضافه شدن</a>
-                    </li>
-                    <li>
-                      <a href="instructor-about-learning.html#"
-                        >هیئت علمی و کارکنان</a
-                      >
-                    </li>
-                    <li>
-                      <a href="instructor-about-learning.html#"
-                        >روابط رسانه ای</a
-                      >
-                    </li>
-                    <li>
-                      <a href="instructor-about-learning.html#"
-                        >فارغ التحصیلان</a
-                      >
-                    </li>
-                    <li>
-                      <a href="instructor-about-learning.html#">بازدید کنید</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-8">
-              <div class="p-footer-widget tp-footer-col-4 mb-30">
-                <h4 class="tp-footer-widget-title mb-15">خبرنامه ما</h4>
-                <div class="tp-footer-newsletter-wrap">
-                  <p>
-                    ایمیل خود را وارد کنید تا برایتان ارسال کنیم<br />اطلاعات
-                    بیشتر
-                  </p>
-                  <form action="instructor-about-learning.html#">
-                    <div class="tp-footer-newsletter-wrapper mb-30">
-                      <div class="tp-footer-newsletter-input">
-                        <input placeholder="ایمیل شما" type="email" />
-                      </div>
-                      <div class="tp-footer-newsletter-submit">
-                        <button class="tp-btn">مشترک شوید</button>
-                      </div>
-                    </div>
-                  </form>
-                  <div class="tp-footer-newsletter-social">
-                    <a class="social-fb" href="instructor-about-learning.html#"
-                      ><i class="fa-brands fa-facebook-f"></i
-                    ></a>
-                    <a
-                      class="social-twit"
-                      href="instructor-about-learning.html#"
-                      ><i class="fa-brands fa-twitter"></i
-                    ></a>
-                    <a
-                      class="social-lnkd"
-                      href="instructor-about-learning.html#"
-                      ><i class="fa-brands fa-linkedin-in"></i
-                    ></a>
-                    <a
-                      class="social-yout"
-                      href="instructor-about-learning.html#"
-                      ><i class="fa-brands fa-youtube"></i
-                    ></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="tp-footer-bottom tpd-dashboard-footer-bottom">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="tp-footer-copyright text-center">
-                <span
-                  >© 1403<a href="instructor-about-learning.html#">آکادیا</a>.
-                  تمامی حقوق محفوظ است.</span
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <!-- footer-area-end -->
     <!-- JS here -->
-    <script src="assets/js/vendor/jquery.js"></script>
-    <script src="assets/js/vendor/waypoints.js"></script>
-    <script src="assets/js/bootstrap-bundle.js"></script>
-    <script src="assets/js/swiper-bundle.js"></script>
-    <script src="assets/js/slick.js"></script>
-    <script src="assets/js/range-slider.js"></script>
-    <script src="assets/js/magnific-popup.js"></script>
-    <script src="assets/js/nice-select.js"></script>
-    <script src="assets/js/select2.min.js"></script>
-    <script src="assets/js/purecounter.js"></script>
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/isotope-pkgd.js"></script>
-    <script src="assets/js/imagesloaded-pkgd.js"></script>
-    <script src="assets/js/flatpickr.js"></script>
-    <script src="assets/js/date.js"></script>
-    <script src="assets/js/datepicker.js"></script>
-    <script src="assets/js/fa.js"></script>
-    <script src="assets/js/ajax-form.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="{% static 'assets/js/vendor/jquery.js' %}"></script>
+    <script src="{% static 'assets/js/vendor/waypoints.js' %}"></script>
+    <script src="{% static 'assets/js/bootstrap-bundle.js' %}"></script>
+    <script src="{% static 'assets/js/swiper-bundle.js' %}"></script>
+    <script src="{% static 'assets/js/slick.js' %}"></script>
+    <script src="{% static 'assets/js/range-slider.js' %}"></script>
+    <script src="{% static 'assets/js/magnific-popup.js' %}"></script>
+    <script src="{% static 'assets/js/nice-select.js' %}"></script>
+    <script src="{% static 'assets/js/select2.min.js' %}"></script>
+    <script src="{% static 'assets/js/purecounter.js' %}"></script>
+    <script src="{% static 'assets/js/wow.js' %}"></script>
+    <script src="{% static 'assets/js/isotope-pkgd.js' %}"></script>
+    <script src="{% static 'assets/js/imagesloaded-pkgd.js' %}"></script>
+    <script src="{% static 'assets/js/flatpickr.js' %}"></script>
+    <script src="{% static 'assets/js/date.js' %}"></script>
+    <script src="{% static 'assets/js/datepicker.js' %}"></script>
+    <script src="{% static 'assets/js/fa.js' %}"></script>
+    <script src="{% static 'assets/js/ajax-form.js' %}"></script>
+    <script src="{% static 'assets/js/main.js' %}"></script>
   </body>
 </html>
+
+{% endblock %}
